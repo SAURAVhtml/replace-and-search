@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <h2>js string methods</h2>
+        <p id="search_result"></p>
+        <p id="replace_result"></p>
+        <p id="string_result"></p>
+        <script>
+     var str = "hello how are doing for the day"
+     var search_position = str.search("doing");
+     var txt = str.replace("how are" , "how are you")
+     var x = 70;
+     var z = 60;
+     document.getElementById("search_result").innerHTML = search_position;
+     document.getElementById("replace_result").innerHTML = txt;
+     document.getElementById("string_result").innerHTML = String(x) + String(z);
+     </script>
+    </body>
+</html>
